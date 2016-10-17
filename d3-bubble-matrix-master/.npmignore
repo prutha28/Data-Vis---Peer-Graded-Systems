@@ -1,0 +1,9 @@
+.babelrc
+.jshintrc
+assets
+build
+gulpfile.babel.js
+node_modules
+src
+bower.json
+bower_components

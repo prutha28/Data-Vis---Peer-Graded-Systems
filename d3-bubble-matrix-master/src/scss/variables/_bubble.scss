@@ -1,0 +1,52 @@
+.bubble-matrix {
+  .rects {
+    rect {
+      fill: $white;
+      cursor: pointer;
+    }
+  }
+  .bubbles {
+    .bubble-color-1 {
+      fill: $rank1;
+    }
+    .bubble-color-2 {
+      fill: $rank2;
+    }
+    .bubble-color-3 {
+      fill: $rank3;
+    }
+    .bubble-color-4 {
+      fill: $rank4;
+    }
+    .bubble-color-5 {
+      fill: $rank5;
+    }
+    .bubble-color-6 {
+      fill: $rank6;
+    }
+    .bubble-color-7 {
+      fill: $rank7;
+    }
+    .bubble-color-8 {
+      fill: $rank8;
+    }
+    .bubble-color-9 {
+      fill: $rank9;
+    }
+    circle {
+      cursor: pointer;
+    }
+  }
+
+  .vertical-lines, .horizontal-lines {
+    stroke: $grey;
+  }
+
+  .top-columns, .bottom-columns {
+    text-anchor: middle;
+  }
+  .right-rows {
+    text-anchor: end;
+  }
+
+}
